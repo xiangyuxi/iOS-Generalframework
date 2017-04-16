@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+Highlight.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,8 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)action:(id)sender {
 }
 
 

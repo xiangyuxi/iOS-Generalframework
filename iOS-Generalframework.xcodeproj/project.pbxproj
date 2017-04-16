@@ -15,6 +15,24 @@
 		067EAD101EA34AFC0017F8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067EAD0E1EA34AFC0017F8EB /* LaunchScreen.storyboard */; };
 		067EAD1B1EA34AFC0017F8EB /* iOS_GeneralframeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD1A1EA34AFC0017F8EB /* iOS_GeneralframeworkTests.m */; };
 		067EAD261EA34AFC0017F8EB /* iOS_GeneralframeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD251EA34AFC0017F8EB /* iOS_GeneralframeworkUITests.m */; };
+		067EAD441EA352300017F8EB /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD421EA352300017F8EB /* NSString+Pinyin.m */; };
+		067EAD471EA352440017F8EB /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD461EA352440017F8EB /* UIView+Frame.m */; };
+		067EAD4A1EA353EA0017F8EB /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD491EA353EA0017F8EB /* UIView+Nib.m */; };
+		067EAD4D1EA3548F0017F8EB /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD4C1EA3548F0017F8EB /* UIView+ViewController.m */; };
+		067EAD501EA354BC0017F8EB /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD4F1EA354BC0017F8EB /* UIColor+Hex.m */; };
+		067EAD531EA355520017F8EB /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD521EA355520017F8EB /* UIImage+Clip.m */; };
+		067EAD561EA356310017F8EB /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD551EA356310017F8EB /* UIImage+Color.m */; };
+		067EAD591EA356BE0017F8EB /* UIImage+Snap.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD581EA356BE0017F8EB /* UIImage+Snap.m */; };
+		067EAD5C1EA357250017F8EB /* UIImage+Launchimage.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD5B1EA357250017F8EB /* UIImage+Launchimage.m */; };
+		067EAD641EA358730017F8EB /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD631EA358730017F8EB /* NSString+Base64.m */; };
+		067EAD671EA3590A0017F8EB /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD661EA3590A0017F8EB /* NSString+Encrypt.m */; };
+		067EAD6A1EA359630017F8EB /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD691EA359630017F8EB /* NSString+MD5.m */; };
+		067EAD6D1EA3599C0017F8EB /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD6C1EA3599C0017F8EB /* NSString+Size.m */; };
+		067EAD721EA35A240017F8EB /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD711EA35A240017F8EB /* NSData+Base64.m */; };
+		067EAD751EA35A530017F8EB /* NSData+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD741EA35A530017F8EB /* NSData+Encrypt.m */; };
+		067EAD791EA35B4D0017F8EB /* NSDate+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD781EA35B4D0017F8EB /* NSDate+Convert.m */; };
+		067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7B1EA35CD30017F8EB /* NSString+Date.m */; };
+		067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */; };
 		49593409FAC72119D97630B9 /* libPods-iOS-Generalframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +70,48 @@
 		067EAD211EA34AFC0017F8EB /* iOS-GeneralframeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-GeneralframeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067EAD251EA34AFC0017F8EB /* iOS_GeneralframeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_GeneralframeworkUITests.m; sourceTree = "<group>"; };
 		067EAD271EA34AFC0017F8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067EAD411EA352300017F8EB /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
+		067EAD421EA352300017F8EB /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
+		067EAD451EA352440017F8EB /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		067EAD461EA352440017F8EB /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		067EAD481EA353EA0017F8EB /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		067EAD491EA353EA0017F8EB /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		067EAD4B1EA3548F0017F8EB /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		067EAD4C1EA3548F0017F8EB /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		067EAD4E1EA354BC0017F8EB /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		067EAD4F1EA354BC0017F8EB /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		067EAD511EA355520017F8EB /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		067EAD521EA355520017F8EB /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		067EAD541EA356310017F8EB /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		067EAD551EA356310017F8EB /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		067EAD571EA356BE0017F8EB /* UIImage+Snap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Snap.h"; sourceTree = "<group>"; };
+		067EAD581EA356BE0017F8EB /* UIImage+Snap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Snap.m"; sourceTree = "<group>"; };
+		067EAD5A1EA357250017F8EB /* UIImage+Launchimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Launchimage.h"; sourceTree = "<group>"; };
+		067EAD5B1EA357250017F8EB /* UIImage+Launchimage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Launchimage.m"; sourceTree = "<group>"; };
+		067EAD5F1EA357FD0017F8EB /* UIView+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Gf.h"; sourceTree = "<group>"; };
+		067EAD601EA3581F0017F8EB /* UIImage+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gf.h"; sourceTree = "<group>"; };
+		067EAD611EA358480017F8EB /* UIColor+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gf.h"; sourceTree = "<group>"; };
+		067EAD621EA358730017F8EB /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		067EAD631EA358730017F8EB /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		067EAD651EA3590A0017F8EB /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		067EAD661EA3590A0017F8EB /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		067EAD681EA359630017F8EB /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		067EAD691EA359630017F8EB /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		067EAD6B1EA3599C0017F8EB /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		067EAD6C1EA3599C0017F8EB /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		067EAD6E1EA359DD0017F8EB /* NSString+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Gf.h"; sourceTree = "<group>"; };
+		067EAD701EA35A240017F8EB /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		067EAD711EA35A240017F8EB /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		067EAD731EA35A530017F8EB /* NSData+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encrypt.h"; sourceTree = "<group>"; };
+		067EAD741EA35A530017F8EB /* NSData+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encrypt.m"; sourceTree = "<group>"; };
+		067EAD761EA35AB30017F8EB /* NSData+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Gf.h"; sourceTree = "<group>"; };
+		067EAD771EA35B4D0017F8EB /* NSDate+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Convert.h"; sourceTree = "<group>"; };
+		067EAD781EA35B4D0017F8EB /* NSDate+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Convert.m"; sourceTree = "<group>"; };
+		067EAD7A1EA35CD30017F8EB /* NSString+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		067EAD7B1EA35CD30017F8EB /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		067EAD7D1EA35FBA0017F8EB /* NSDate+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Gf.h"; sourceTree = "<group>"; };
+		067EAD7E1EA3603E0017F8EB /* UIButton+Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Highlight.h"; sourceTree = "<group>"; };
+		067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Highlight.m"; sourceTree = "<group>"; };
 		1EC4CCF7F506064FBA06E50E /* Pods-iOS-Generalframework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Generalframework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Generalframework/Pods-iOS-Generalframework.debug.xcconfig"; sourceTree = "<group>"; };
 		518F4F775C90F94CEF81712B /* Pods-iOS-Generalframework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Generalframework.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Generalframework/Pods-iOS-Generalframework.release.xcconfig"; sourceTree = "<group>"; };
 		5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-Generalframework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +172,10 @@
 				067EAD041EA34AFC0017F8EB /* AppDelegate.m */,
 				067EAD061EA34AFC0017F8EB /* ViewController.h */,
 				067EAD071EA34AFC0017F8EB /* ViewController.m */,
+				067EAD331EA351530017F8EB /* Foundation(系统抽离) */,
+				067EAD361EA351530017F8EB /* Media Resources(图片、音乐、本地plist等) */,
+				067EAD3A1EA351530017F8EB /* Modules(模块实现，与业务强相关) */,
+				067EAD3B1EA351530017F8EB /* Vender(第三方、自定义与业务无关组件等) */,
 				067EAD001EA34AFC0017F8EB /* Supporting Files */,
 			);
 			path = "iOS-Generalframework";
@@ -145,6 +209,173 @@
 				067EAD271EA34AFC0017F8EB /* Info.plist */,
 			);
 			path = "iOS-GeneralframeworkUITests";
+			sourceTree = "<group>";
+		};
+		067EAD331EA351530017F8EB /* Foundation(系统抽离) */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD341EA351530017F8EB /* Category */,
+				067EAD351EA351530017F8EB /* Header */,
+			);
+			path = "Foundation(系统抽离)";
+			sourceTree = "<group>";
+		};
+		067EAD341EA351530017F8EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD6F1EA35A160017F8EB /* NSData */,
+				067EAD3F1EA352300017F8EB /* NSDate */,
+				067EAD401EA352300017F8EB /* NSString */,
+				067EAD431EA352300017F8EB /* UIColor */,
+				067EAD3C1EA352170017F8EB /* UIButton */,
+				067EAD3D1EA352170017F8EB /* UIImage */,
+				067EAD3E1EA352170017F8EB /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		067EAD351EA351530017F8EB /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		067EAD361EA351530017F8EB /* Media Resources(图片、音乐、本地plist等) */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD371EA351530017F8EB /* IMG */,
+				067EAD381EA351530017F8EB /* plist */,
+				067EAD391EA351530017F8EB /* Sound */,
+			);
+			path = "Media Resources(图片、音乐、本地plist等)";
+			sourceTree = "<group>";
+		};
+		067EAD371EA351530017F8EB /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IMG;
+			sourceTree = "<group>";
+		};
+		067EAD381EA351530017F8EB /* plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		067EAD391EA351530017F8EB /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		067EAD3A1EA351530017F8EB /* Modules(模块实现，与业务强相关) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Modules(模块实现，与业务强相关)";
+			path = "Modules(模块设计)";
+			sourceTree = "<group>";
+		};
+		067EAD3B1EA351530017F8EB /* Vender(第三方、自定义与业务无关组件等) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Vender(第三方、自定义与业务无关组件等)";
+			sourceTree = "<group>";
+		};
+		067EAD3C1EA352170017F8EB /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD7E1EA3603E0017F8EB /* UIButton+Highlight.h */,
+				067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		067EAD3D1EA352170017F8EB /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD601EA3581F0017F8EB /* UIImage+Gf.h */,
+				067EAD511EA355520017F8EB /* UIImage+Clip.h */,
+				067EAD521EA355520017F8EB /* UIImage+Clip.m */,
+				067EAD541EA356310017F8EB /* UIImage+Color.h */,
+				067EAD551EA356310017F8EB /* UIImage+Color.m */,
+				067EAD571EA356BE0017F8EB /* UIImage+Snap.h */,
+				067EAD581EA356BE0017F8EB /* UIImage+Snap.m */,
+				067EAD5A1EA357250017F8EB /* UIImage+Launchimage.h */,
+				067EAD5B1EA357250017F8EB /* UIImage+Launchimage.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		067EAD3E1EA352170017F8EB /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD5F1EA357FD0017F8EB /* UIView+Gf.h */,
+				067EAD451EA352440017F8EB /* UIView+Frame.h */,
+				067EAD461EA352440017F8EB /* UIView+Frame.m */,
+				067EAD481EA353EA0017F8EB /* UIView+Nib.h */,
+				067EAD491EA353EA0017F8EB /* UIView+Nib.m */,
+				067EAD4B1EA3548F0017F8EB /* UIView+ViewController.h */,
+				067EAD4C1EA3548F0017F8EB /* UIView+ViewController.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		067EAD3F1EA352300017F8EB /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD7D1EA35FBA0017F8EB /* NSDate+Gf.h */,
+				067EAD771EA35B4D0017F8EB /* NSDate+Convert.h */,
+				067EAD781EA35B4D0017F8EB /* NSDate+Convert.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		067EAD401EA352300017F8EB /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD6E1EA359DD0017F8EB /* NSString+Gf.h */,
+				067EAD411EA352300017F8EB /* NSString+Pinyin.h */,
+				067EAD421EA352300017F8EB /* NSString+Pinyin.m */,
+				067EAD621EA358730017F8EB /* NSString+Base64.h */,
+				067EAD631EA358730017F8EB /* NSString+Base64.m */,
+				067EAD651EA3590A0017F8EB /* NSString+Encrypt.h */,
+				067EAD661EA3590A0017F8EB /* NSString+Encrypt.m */,
+				067EAD681EA359630017F8EB /* NSString+MD5.h */,
+				067EAD691EA359630017F8EB /* NSString+MD5.m */,
+				067EAD6B1EA3599C0017F8EB /* NSString+Size.h */,
+				067EAD6C1EA3599C0017F8EB /* NSString+Size.m */,
+				067EAD7A1EA35CD30017F8EB /* NSString+Date.h */,
+				067EAD7B1EA35CD30017F8EB /* NSString+Date.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		067EAD431EA352300017F8EB /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD611EA358480017F8EB /* UIColor+Gf.h */,
+				067EAD4E1EA354BC0017F8EB /* UIColor+Hex.h */,
+				067EAD4F1EA354BC0017F8EB /* UIColor+Hex.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		067EAD6F1EA35A160017F8EB /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				067EAD761EA35AB30017F8EB /* NSData+Gf.h */,
+				067EAD701EA35A240017F8EB /* NSData+Base64.h */,
+				067EAD711EA35A240017F8EB /* NSData+Base64.m */,
+				067EAD731EA35A530017F8EB /* NSData+Encrypt.h */,
+				067EAD741EA35A530017F8EB /* NSData+Encrypt.m */,
+			);
+			path = NSData;
 			sourceTree = "<group>";
 		};
 		82F46CCF05E1AD41A0846CEE /* Pods */ = {
@@ -234,6 +465,7 @@
 				TargetAttributes = {
 					067EACFC1EA34AFC0017F8EB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KE9J58DYLQ;
 						ProvisioningStyle = Automatic;
 					};
 					067EAD151EA34AFC0017F8EB = {
@@ -348,9 +580,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067EAD641EA358730017F8EB /* NSString+Base64.m in Sources */,
+				067EAD531EA355520017F8EB /* UIImage+Clip.m in Sources */,
+				067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */,
 				067EAD081EA34AFC0017F8EB /* ViewController.m in Sources */,
+				067EAD4D1EA3548F0017F8EB /* UIView+ViewController.m in Sources */,
+				067EAD721EA35A240017F8EB /* NSData+Base64.m in Sources */,
 				067EAD051EA34AFC0017F8EB /* AppDelegate.m in Sources */,
+				067EAD4A1EA353EA0017F8EB /* UIView+Nib.m in Sources */,
+				067EAD441EA352300017F8EB /* NSString+Pinyin.m in Sources */,
+				067EAD501EA354BC0017F8EB /* UIColor+Hex.m in Sources */,
+				067EAD6D1EA3599C0017F8EB /* NSString+Size.m in Sources */,
+				067EAD791EA35B4D0017F8EB /* NSDate+Convert.m in Sources */,
+				067EAD561EA356310017F8EB /* UIImage+Color.m in Sources */,
+				067EAD471EA352440017F8EB /* UIView+Frame.m in Sources */,
+				067EAD591EA356BE0017F8EB /* UIImage+Snap.m in Sources */,
+				067EAD5C1EA357250017F8EB /* UIImage+Launchimage.m in Sources */,
+				067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */,
+				067EAD6A1EA359630017F8EB /* NSString+MD5.m in Sources */,
 				067EAD021EA34AFC0017F8EB /* main.m in Sources */,
+				067EAD751EA35A530017F8EB /* NSData+Encrypt.m in Sources */,
+				067EAD671EA3590A0017F8EB /* NSString+Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,9 +748,11 @@
 			baseConfigurationReference = 1EC4CCF7F506064FBA06E50E /* Pods-iOS-Generalframework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KE9J58DYLQ;
 				INFOPLIST_FILE = "iOS-Generalframework/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "xyx.iOS-Generalframework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangu16.module.Demo.AppMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -510,9 +762,11 @@
 			baseConfigurationReference = 518F4F775C90F94CEF81712B /* Pods-iOS-Generalframework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KE9J58DYLQ;
 				INFOPLIST_FILE = "iOS-Generalframework/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "xyx.iOS-Generalframework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangu16.module.Demo.AppMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
