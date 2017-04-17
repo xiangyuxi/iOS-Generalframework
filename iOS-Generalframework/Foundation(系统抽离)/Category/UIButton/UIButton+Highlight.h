@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GF_Macros.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
-// 过期
-#define GFDeprecated(instead) NS_DEPRECATED(2_0, 2_0, 2_0, 2_0, instead)
 
 typedef NS_ENUM(NSUInteger, GFButtonState) {
     GFButtonStateNormal,
@@ -34,4 +32,5 @@ typedef NS_ENUM(NSUInteger, GFButtonState) {
 @property (nullable, nonatomic, copy) UIColor *backgroundColor GFDeprecated("使用'setBackgroundColor:forState:'代替。");
 
 @end
+
 NS_ASSUME_NONNULL_END

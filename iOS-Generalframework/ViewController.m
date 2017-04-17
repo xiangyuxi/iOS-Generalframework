@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIButton+Highlight.h"
+#import "GFDeviceUtil.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *btn;
@@ -19,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.btn setBackgroundColor:[UIColor redColor] forState:GFButtonStateHighlight];
+    GFLog(@"%@   %@",[GFDeviceUtil sharedGFDeviceUtil],[GFDeviceUtil sharedGFDeviceUtil].deviceModel);
+    
 }
 - (IBAction)btnAction:(id)sender {
     NSLog(@"btnAction");
