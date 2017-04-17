@@ -21,11 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zde-lN-NVf">
-                                <rect key="frame" x="165" y="319" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zde-lN-NVf">
+                                <rect key="frame" x="161" y="317" width="54" height="34"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.35294117650000001" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
-                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bfd-3d-6c2"/>
+                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a47-on-lTm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -35,6 +40,9 @@
                             <constraint firstItem="Zde-lN-NVf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qRm-fB-Ql3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btn" destination="Zde-lN-NVf" id="g5y-mz-cdU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

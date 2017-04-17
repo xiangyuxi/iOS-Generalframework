@@ -10,6 +10,7 @@
 #import "UIButton+Highlight.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *btn;
 
 @end
 
@@ -17,16 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.btn setBackgroundColor:[UIColor redColor] forState:GFButtonStateHighlight];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)btnAction:(id)sender {
+    NSLog(@"btnAction");
 }
-- (IBAction)action:(id)sender {
-}
-
 
 @end
