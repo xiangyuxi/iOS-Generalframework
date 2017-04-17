@@ -35,6 +35,8 @@
 		067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */; };
 		06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE811EA4A60D00D7708B /* GF_Tools.m */; };
 		06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */; };
+		06ADFE8A1EA4AEDF00D7708B /* GFEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE891EA4AEDF00D7708B /* GFEffectView.m */; };
+		06ADFE8D1EA4B3F900D7708B /* GFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE8C1EA4B3F900D7708B /* GFToast.m */; };
 		49593409FAC72119D97630B9 /* libPods-iOS-Generalframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +123,11 @@
 		06ADFE811EA4A60D00D7708B /* GF_Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GF_Tools.m; sourceTree = "<group>"; };
 		06ADFE841EA4A70300D7708B /* GFDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDeviceUtil.h; sourceTree = "<group>"; };
 		06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDeviceUtil.m; sourceTree = "<group>"; };
+		06ADFE871EA4AE9100D7708B /* Utils_Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils_Gf.h; sourceTree = "<group>"; };
+		06ADFE881EA4AEDF00D7708B /* GFEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFEffectView.h; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFEffectView.h"; sourceTree = SOURCE_ROOT; };
+		06ADFE891EA4AEDF00D7708B /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFEffectView.m; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFEffectView.m"; sourceTree = SOURCE_ROOT; };
+		06ADFE8B1EA4B3F900D7708B /* GFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFToast.h; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFToast.h"; sourceTree = SOURCE_ROOT; };
+		06ADFE8C1EA4B3F900D7708B /* GFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFToast.m; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFToast.m"; sourceTree = SOURCE_ROOT; };
 		1EC4CCF7F506064FBA06E50E /* Pods-iOS-Generalframework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Generalframework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Generalframework/Pods-iOS-Generalframework.debug.xcconfig"; sourceTree = "<group>"; };
 		518F4F775C90F94CEF81712B /* Pods-iOS-Generalframework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Generalframework.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Generalframework/Pods-iOS-Generalframework.release.xcconfig"; sourceTree = "<group>"; };
 		5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-Generalframework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -286,6 +293,10 @@
 		067EAD3B1EA351530017F8EB /* Vender(第三方、自定义与业务无关组件等) */ = {
 			isa = PBXGroup;
 			children = (
+				06ADFE881EA4AEDF00D7708B /* GFEffectView.h */,
+				06ADFE891EA4AEDF00D7708B /* GFEffectView.m */,
+				06ADFE8B1EA4B3F900D7708B /* GFToast.h */,
+				06ADFE8C1EA4B3F900D7708B /* GFToast.m */,
 			);
 			path = "Vender(第三方、自定义与业务无关组件等)";
 			sourceTree = "<group>";
@@ -396,6 +407,7 @@
 		06ADFE831EA4A67100D7708B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				06ADFE871EA4AE9100D7708B /* Utils_Gf.h */,
 				06ADFE841EA4A70300D7708B /* GFDeviceUtil.h */,
 				06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */,
 			);
@@ -614,6 +626,7 @@
 				067EAD4A1EA353EA0017F8EB /* UIView+Nib.m in Sources */,
 				06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */,
 				067EAD441EA352300017F8EB /* NSString+Pinyin.m in Sources */,
+				06ADFE8D1EA4B3F900D7708B /* GFToast.m in Sources */,
 				06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */,
 				067EAD501EA354BC0017F8EB /* UIColor+Hex.m in Sources */,
 				067EAD6D1EA3599C0017F8EB /* NSString+Size.m in Sources */,
@@ -626,6 +639,7 @@
 				067EAD6A1EA359630017F8EB /* NSString+MD5.m in Sources */,
 				067EAD021EA34AFC0017F8EB /* main.m in Sources */,
 				067EAD751EA35A530017F8EB /* NSData+Encrypt.m in Sources */,
+				06ADFE8A1EA4AEDF00D7708B /* GFEffectView.m in Sources */,
 				067EAD671EA3590A0017F8EB /* NSString+Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
