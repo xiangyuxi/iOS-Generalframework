@@ -120,6 +120,7 @@
 		0693741F1EA6076D004E1226 /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEffectView.m; sourceTree = "<group>"; };
 		069374201EA6076D004E1226 /* GFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFToast.h; sourceTree = "<group>"; };
 		069374211EA6076D004E1226 /* GFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFToast.m; sourceTree = "<group>"; };
+		069374241EA607E7004E1226 /* GFNetworkingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingProtocol.h; sourceTree = "<group>"; };
 		06AA381D1EA49DC50004339C /* UIButton+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gf.h"; sourceTree = "<group>"; };
 		06ADFE7E1EA4A60D00D7708B /* GF_Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Headers.h; sourceTree = "<group>"; };
 		06ADFE7F1EA4A60D00D7708B /* GF_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Macros.h; sourceTree = "<group>"; };
@@ -393,6 +394,7 @@
 		0693741C1EA6074C004E1226 /* AFNetworking+Gf */ = {
 			isa = PBXGroup;
 			children = (
+				069374241EA607E7004E1226 /* GFNetworkingProtocol.h */,
 			);
 			path = "AFNetworking+Gf";
 			sourceTree = "<group>";
