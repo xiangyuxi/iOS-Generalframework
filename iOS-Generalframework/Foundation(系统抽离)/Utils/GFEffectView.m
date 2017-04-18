@@ -24,8 +24,8 @@
 {
     if ([super init])
     {
-        self.effect = GFEffectViewStyleDefault;
         self.translucent = YES;
+        self.effect = GFEffectViewStyleDefault;
         self.backgroundColor = [UIColor clearColor];
     }
     return self;
@@ -34,8 +34,8 @@
 {
     if ([super initWithFrame:frame])
     {
-        self.effect = GFEffectViewStyleDefault;
         self.translucent = YES;
+        self.effect = GFEffectViewStyleDefault;
         self.backgroundColor = [UIColor clearColor];
     }
     return self;
@@ -44,8 +44,6 @@
 {
     if ([super initWithCoder:aDecoder])
     {
-        self.effect = GFEffectViewStyleDefault;
-        self.translucent = YES;
         self.backgroundColor = [UIColor clearColor];
     }
     return self;
