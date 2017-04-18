@@ -35,6 +35,7 @@
 		067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */; };
 		069374221EA6076D004E1226 /* GFEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0693741F1EA6076D004E1226 /* GFEffectView.m */; };
 		069374231EA6076D004E1226 /* GFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 069374211EA6076D004E1226 /* GFToast.m */; };
+		069374271EA61657004E1226 /* GFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 069374261EA61657004E1226 /* GFNetworking.m */; };
 		06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE811EA4A60D00D7708B /* GF_Tools.m */; };
 		06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */; };
 		49593409FAC72119D97630B9 /* libPods-iOS-Generalframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */; };
@@ -121,6 +122,8 @@
 		069374201EA6076D004E1226 /* GFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFToast.h; sourceTree = "<group>"; };
 		069374211EA6076D004E1226 /* GFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFToast.m; sourceTree = "<group>"; };
 		069374241EA607E7004E1226 /* GFNetworkingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingProtocol.h; sourceTree = "<group>"; };
+		069374251EA61657004E1226 /* GFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworking.h; sourceTree = "<group>"; };
+		069374261EA61657004E1226 /* GFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNetworking.m; sourceTree = "<group>"; };
 		06AA381D1EA49DC50004339C /* UIButton+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gf.h"; sourceTree = "<group>"; };
 		06ADFE7E1EA4A60D00D7708B /* GF_Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Headers.h; sourceTree = "<group>"; };
 		06ADFE7F1EA4A60D00D7708B /* GF_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Macros.h; sourceTree = "<group>"; };
@@ -395,6 +398,8 @@
 			isa = PBXGroup;
 			children = (
 				069374241EA607E7004E1226 /* GFNetworkingProtocol.h */,
+				069374251EA61657004E1226 /* GFNetworking.h */,
+				069374261EA61657004E1226 /* GFNetworking.m */,
 			);
 			path = "AFNetworking+Gf";
 			sourceTree = "<group>";
@@ -657,6 +662,7 @@
 				067EAD021EA34AFC0017F8EB /* main.m in Sources */,
 				067EAD751EA35A530017F8EB /* NSData+Encrypt.m in Sources */,
 				069374221EA6076D004E1226 /* GFEffectView.m in Sources */,
+				069374271EA61657004E1226 /* GFNetworking.m in Sources */,
 				067EAD671EA3590A0017F8EB /* NSString+Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
