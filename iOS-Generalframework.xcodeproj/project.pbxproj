@@ -33,10 +33,10 @@
 		067EAD791EA35B4D0017F8EB /* NSDate+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD781EA35B4D0017F8EB /* NSDate+Convert.m */; };
 		067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7B1EA35CD30017F8EB /* NSString+Date.m */; };
 		067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */; };
+		069374171EA606AB004E1226 /* GFEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069374141EA606AB004E1226 /* GFEffectView.m */; };
+		069374181EA606AB004E1226 /* GFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 069374161EA606AB004E1226 /* GFToast.m */; };
 		06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE811EA4A60D00D7708B /* GF_Tools.m */; };
 		06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */; };
-		06ADFE8A1EA4AEDF00D7708B /* GFEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE891EA4AEDF00D7708B /* GFEffectView.m */; };
-		06ADFE8D1EA4B3F900D7708B /* GFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE8C1EA4B3F900D7708B /* GFToast.m */; };
 		49593409FAC72119D97630B9 /* libPods-iOS-Generalframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +116,10 @@
 		067EAD7D1EA35FBA0017F8EB /* NSDate+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Gf.h"; sourceTree = "<group>"; };
 		067EAD7E1EA3603E0017F8EB /* UIButton+Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Highlight.h"; sourceTree = "<group>"; };
 		067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Highlight.m"; sourceTree = "<group>"; };
+		069374131EA606AB004E1226 /* GFEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFEffectView.h; sourceTree = "<group>"; };
+		069374141EA606AB004E1226 /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEffectView.m; sourceTree = "<group>"; };
+		069374151EA606AB004E1226 /* GFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFToast.h; sourceTree = "<group>"; };
+		069374161EA606AB004E1226 /* GFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFToast.m; sourceTree = "<group>"; };
 		06AA381D1EA49DC50004339C /* UIButton+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gf.h"; sourceTree = "<group>"; };
 		06ADFE7E1EA4A60D00D7708B /* GF_Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Headers.h; sourceTree = "<group>"; };
 		06ADFE7F1EA4A60D00D7708B /* GF_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Macros.h; sourceTree = "<group>"; };
@@ -124,10 +128,6 @@
 		06ADFE841EA4A70300D7708B /* GFDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDeviceUtil.h; sourceTree = "<group>"; };
 		06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDeviceUtil.m; sourceTree = "<group>"; };
 		06ADFE871EA4AE9100D7708B /* Utils_Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils_Gf.h; sourceTree = "<group>"; };
-		06ADFE881EA4AEDF00D7708B /* GFEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFEffectView.h; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFEffectView.h"; sourceTree = SOURCE_ROOT; };
-		06ADFE891EA4AEDF00D7708B /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFEffectView.m; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFEffectView.m"; sourceTree = SOURCE_ROOT; };
-		06ADFE8B1EA4B3F900D7708B /* GFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFToast.h; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFToast.h"; sourceTree = SOURCE_ROOT; };
-		06ADFE8C1EA4B3F900D7708B /* GFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFToast.m; path = "iOS-Generalframework/Foundation(系统抽离)/Utils/GFToast.m"; sourceTree = SOURCE_ROOT; };
 		1EC4CCF7F506064FBA06E50E /* Pods-iOS-Generalframework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Generalframework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Generalframework/Pods-iOS-Generalframework.debug.xcconfig"; sourceTree = "<group>"; };
 		518F4F775C90F94CEF81712B /* Pods-iOS-Generalframework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Generalframework.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Generalframework/Pods-iOS-Generalframework.release.xcconfig"; sourceTree = "<group>"; };
 		5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-Generalframework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,10 +188,10 @@
 				067EAD041EA34AFC0017F8EB /* AppDelegate.m */,
 				067EAD061EA34AFC0017F8EB /* ViewController.h */,
 				067EAD071EA34AFC0017F8EB /* ViewController.m */,
+				069374101EA606AB004E1226 /* Media Resources(图片、音乐、本地plist等) */,
+				069374111EA606AB004E1226 /* Modules(模块实现，与业务强相关) */,
+				069374121EA606AB004E1226 /* Vender(第三方、自定义与业务无关组件等) */,
 				067EAD331EA351530017F8EB /* Foundation(系统抽离) */,
-				067EAD361EA351530017F8EB /* Media Resources(图片、音乐、本地plist等) */,
-				067EAD3A1EA351530017F8EB /* Modules(模块实现，与业务强相关) */,
-				067EAD3B1EA351530017F8EB /* Vender(第三方、自定义与业务无关组件等) */,
 				067EAD001EA34AFC0017F8EB /* Supporting Files */,
 			);
 			path = "iOS-Generalframework";
@@ -249,56 +249,6 @@
 				067EAD3E1EA352170017F8EB /* UIView */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		067EAD361EA351530017F8EB /* Media Resources(图片、音乐、本地plist等) */ = {
-			isa = PBXGroup;
-			children = (
-				067EAD371EA351530017F8EB /* IMG */,
-				067EAD381EA351530017F8EB /* plist */,
-				067EAD391EA351530017F8EB /* Sound */,
-			);
-			path = "Media Resources(图片、音乐、本地plist等)";
-			sourceTree = "<group>";
-		};
-		067EAD371EA351530017F8EB /* IMG */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = IMG;
-			sourceTree = "<group>";
-		};
-		067EAD381EA351530017F8EB /* plist */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = plist;
-			sourceTree = "<group>";
-		};
-		067EAD391EA351530017F8EB /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sound;
-			sourceTree = "<group>";
-		};
-		067EAD3A1EA351530017F8EB /* Modules(模块实现，与业务强相关) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Modules(模块实现，与业务强相关)";
-			path = "Modules(模块设计)";
-			sourceTree = "<group>";
-		};
-		067EAD3B1EA351530017F8EB /* Vender(第三方、自定义与业务无关组件等) */ = {
-			isa = PBXGroup;
-			children = (
-				06ADFE881EA4AEDF00D7708B /* GFEffectView.h */,
-				06ADFE891EA4AEDF00D7708B /* GFEffectView.m */,
-				06ADFE8B1EA4B3F900D7708B /* GFToast.h */,
-				06ADFE8C1EA4B3F900D7708B /* GFToast.m */,
-			);
-			path = "Vender(第三方、自定义与业务无关组件等)";
 			sourceTree = "<group>";
 		};
 		067EAD3C1EA352170017F8EB /* UIButton */ = {
@@ -391,6 +341,55 @@
 				067EAD741EA35A530017F8EB /* NSData+Encrypt.m */,
 			);
 			path = NSData;
+			sourceTree = "<group>";
+		};
+		069374101EA606AB004E1226 /* Media Resources(图片、音乐、本地plist等) */ = {
+			isa = PBXGroup;
+			children = (
+				0693741B1EA606E4004E1226 /* Video */,
+				069374191EA606D8004E1226 /* IMG */,
+				0693741A1EA606D8004E1226 /* Sound */,
+			);
+			path = "Media Resources(图片、音乐、本地plist等)";
+			sourceTree = "<group>";
+		};
+		069374111EA606AB004E1226 /* Modules(模块实现，与业务强相关) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Modules(模块实现，与业务强相关)";
+			sourceTree = "<group>";
+		};
+		069374121EA606AB004E1226 /* Vender(第三方、自定义与业务无关组件等) */ = {
+			isa = PBXGroup;
+			children = (
+				069374131EA606AB004E1226 /* GFEffectView.h */,
+				069374141EA606AB004E1226 /* GFEffectView.m */,
+				069374151EA606AB004E1226 /* GFToast.h */,
+				069374161EA606AB004E1226 /* GFToast.m */,
+			);
+			path = "Vender(第三方、自定义与业务无关组件等)";
+			sourceTree = "<group>";
+		};
+		069374191EA606D8004E1226 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IMG;
+			sourceTree = "<group>";
+		};
+		0693741A1EA606D8004E1226 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		0693741B1EA606E4004E1226 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 		06ADFE7D1EA4A60D00D7708B /* Header */ = {
@@ -626,7 +625,7 @@
 				067EAD4A1EA353EA0017F8EB /* UIView+Nib.m in Sources */,
 				06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */,
 				067EAD441EA352300017F8EB /* NSString+Pinyin.m in Sources */,
-				06ADFE8D1EA4B3F900D7708B /* GFToast.m in Sources */,
+				069374181EA606AB004E1226 /* GFToast.m in Sources */,
 				06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */,
 				067EAD501EA354BC0017F8EB /* UIColor+Hex.m in Sources */,
 				067EAD6D1EA3599C0017F8EB /* NSString+Size.m in Sources */,
@@ -639,7 +638,7 @@
 				067EAD6A1EA359630017F8EB /* NSString+MD5.m in Sources */,
 				067EAD021EA34AFC0017F8EB /* main.m in Sources */,
 				067EAD751EA35A530017F8EB /* NSData+Encrypt.m in Sources */,
-				06ADFE8A1EA4AEDF00D7708B /* GFEffectView.m in Sources */,
+				069374171EA606AB004E1226 /* GFEffectView.m in Sources */,
 				067EAD671EA3590A0017F8EB /* NSString+Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
