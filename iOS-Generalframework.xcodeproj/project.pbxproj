@@ -166,6 +166,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0647ADF41EA733C90041966B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0647ADF51EA733C90041966B /* Controller */,
+				0647ADF61EA733C90041966B /* Model */,
+				0647ADF71EA733C90041966B /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0647ADF51EA733C90041966B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0647ADF61EA733C90041966B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0647ADF71EA733C90041966B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		067EACF41EA34AFC0017F8EB = {
 			isa = PBXGroup;
 			children = (
@@ -363,6 +394,7 @@
 		069374111EA606AB004E1226 /* Modules(模块实现，与业务强相关) */ = {
 			isa = PBXGroup;
 			children = (
+				0647ADF41EA733C90041966B /* Common */,
 			);
 			path = "Modules(模块实现，与业务强相关)";
 			sourceTree = "<group>";
