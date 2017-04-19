@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0647ADFA1EA73A4F0041966B /* s.m in Sources */ = {isa = PBXBuildFile; fileRef = 0647ADF91EA73A4F0041966B /* s.m */; };
 		067EAD021EA34AFC0017F8EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD011EA34AFC0017F8EB /* main.m */; };
 		067EAD051EA34AFC0017F8EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD041EA34AFC0017F8EB /* AppDelegate.m */; };
 		067EAD081EA34AFC0017F8EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD071EA34AFC0017F8EB /* ViewController.m */; };
@@ -61,8 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0647ADF81EA73A4F0041966B /* s.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s.h; sourceTree = "<group>"; };
-		0647ADF91EA73A4F0041966B /* s.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = s.m; sourceTree = "<group>"; };
 		067EACFD1EA34AFC0017F8EB /* iOS-Generalframework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Generalframework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067EAD011EA34AFC0017F8EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		067EAD031EA34AFC0017F8EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -398,8 +395,6 @@
 			isa = PBXGroup;
 			children = (
 				0647ADF41EA733C90041966B /* Common */,
-				0647ADF81EA73A4F0041966B /* s.h */,
-				0647ADF91EA73A4F0041966B /* s.m */,
 			);
 			path = "Modules(模块实现，与业务强相关)";
 			sourceTree = "<group>";
@@ -697,7 +692,6 @@
 				067EAD791EA35B4D0017F8EB /* NSDate+Convert.m in Sources */,
 				067EAD561EA356310017F8EB /* UIImage+Color.m in Sources */,
 				067EAD471EA352440017F8EB /* UIView+Frame.m in Sources */,
-				0647ADFA1EA73A4F0041966B /* s.m in Sources */,
 				067EAD591EA356BE0017F8EB /* UIImage+Snap.m in Sources */,
 				067EAD5C1EA357250017F8EB /* UIImage+Launchimage.m in Sources */,
 				067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */,
