@@ -5,6 +5,7 @@
 //  Created by yxiang on 2017/4/18.
 //  Copyright © 2017年 xyx. All rights reserved.
 //
+//  关于session的配置http://www.cnblogs.com/liugengqun/p/5140296.html
 
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
@@ -46,6 +47,7 @@ typedef NS_ENUM (NSInteger, GFNetworkingSerializer) {
 typedef void(^GFNetworkingSuccessBlock)(id<GFNetworkingProtocol> request);
 typedef void(^GFNetworkingFailurdBlock)(NSError *error);
 typedef void(^GFNetworkingProgressBlock)(CGFloat progress);
+typedef void(^GFNetworkingConstructingBodyBlock)(id<AFMultipartFormData> formData);
 
 @protocol GFNetworkingDelegate <NSObject>
 
@@ -102,33 +104,28 @@ typedef void(^GFNetworkingProgressBlock)(CGFloat progress);
 @property (nonatomic, assign) GFNetworkingSerializer requstSerializer;
 
 /**
- 响应格式，默认为JSON
- */
-@property (nonatomic, assign) GFNetworkingSerializer resopnseSerializer;
-
-/**
  在HTTP报头添加的自定义参数
  */
 @property (nonatomic, copy) NSDictionary *headerFieldValues;
-
-/**
- 请求的连接超时时间，默认为60秒
- */
-@property (nonatomic, assign) NSTimeInterval timeoutInterval;
-
-/**
- 缓存策略
- */
-@property (nonatomic, assign) NSURLRequestCachePolicy cachePolicy;
 
 /**
  代理回调
  */
 @property (nonatomic, weak) id<GFNetworkingDelegate> delegate;
 
+/**
+ 回话配置对象
+ */
+@property (nonatomic, copy) NSURLSessionConfiguration *sessionConfiguration;
+
 @property (nonatomic, copy, readonly) GFNetworkingFailurdBlock failureBlock;
 @property (nonatomic, copy, readonly) GFNetworkingSuccessBlock successBlock;
 @property (nonatomic, copy, readonly) GFNetworkingProgressBlock progressBlock;
+
+/**
+ POST请求组装body
+ */
+@property (nonatomic, copy) GFNetworkingConstructingBodyBlock constuctingBodyBlock;
 
 /**
  请求结果反馈方法
