@@ -33,10 +33,7 @@
 		067EAD791EA35B4D0017F8EB /* NSDate+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD781EA35B4D0017F8EB /* NSDate+Convert.m */; };
 		067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7B1EA35CD30017F8EB /* NSString+Date.m */; };
 		067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */; };
-		068AABEC1EA6F2C1001BE12A /* GFNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 068AABEB1EA6F2C1001BE12A /* GFNetworkingManager.m */; };
 		069374221EA6076D004E1226 /* GFEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0693741F1EA6076D004E1226 /* GFEffectView.m */; };
-		069374231EA6076D004E1226 /* GFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 069374211EA6076D004E1226 /* GFToast.m */; };
-		069374271EA61657004E1226 /* GFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 069374261EA61657004E1226 /* GFNetworking.m */; };
 		06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE811EA4A60D00D7708B /* GF_Tools.m */; };
 		06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */; };
 		49593409FAC72119D97630B9 /* libPods-iOS-Generalframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */; };
@@ -118,15 +115,8 @@
 		067EAD7D1EA35FBA0017F8EB /* NSDate+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Gf.h"; sourceTree = "<group>"; };
 		067EAD7E1EA3603E0017F8EB /* UIButton+Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Highlight.h"; sourceTree = "<group>"; };
 		067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Highlight.m"; sourceTree = "<group>"; };
-		068AABEA1EA6F2C1001BE12A /* GFNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingManager.h; sourceTree = "<group>"; };
-		068AABEB1EA6F2C1001BE12A /* GFNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNetworkingManager.m; sourceTree = "<group>"; };
-		0693741E1EA6076D004E1226 /* GFEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFEffectView.h; sourceTree = "<group>"; };
-		0693741F1EA6076D004E1226 /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEffectView.m; sourceTree = "<group>"; };
-		069374201EA6076D004E1226 /* GFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFToast.h; sourceTree = "<group>"; };
-		069374211EA6076D004E1226 /* GFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFToast.m; sourceTree = "<group>"; };
-		069374241EA607E7004E1226 /* GFNetworkingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingProtocol.h; sourceTree = "<group>"; };
-		069374251EA61657004E1226 /* GFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworking.h; sourceTree = "<group>"; };
-		069374261EA61657004E1226 /* GFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNetworking.m; sourceTree = "<group>"; };
+		0693741E1EA6076D004E1226 /* GFEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFEffectView.h; path = View/GFEffectView.h; sourceTree = "<group>"; };
+		0693741F1EA6076D004E1226 /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFEffectView.m; path = View/GFEffectView.m; sourceTree = "<group>"; };
 		06AA381D1EA49DC50004339C /* UIButton+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gf.h"; sourceTree = "<group>"; };
 		06ADFE7E1EA4A60D00D7708B /* GF_Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Headers.h; sourceTree = "<group>"; };
 		06ADFE7F1EA4A60D00D7708B /* GF_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Macros.h; sourceTree = "<group>"; };
@@ -402,8 +392,8 @@
 		069374121EA606AB004E1226 /* Vender(第三方、自定义与业务无关组件等) */ = {
 			isa = PBXGroup;
 			children = (
-				0693741D1EA6076D004E1226 /* View */,
-				0693741C1EA6074C004E1226 /* AFNetworking+Gf */,
+				0693741E1EA6076D004E1226 /* GFEffectView.h */,
+				0693741F1EA6076D004E1226 /* GFEffectView.m */,
 			);
 			path = "Vender(第三方、自定义与业务无关组件等)";
 			sourceTree = "<group>";
@@ -427,29 +417,6 @@
 			children = (
 			);
 			path = Video;
-			sourceTree = "<group>";
-		};
-		0693741C1EA6074C004E1226 /* AFNetworking+Gf */ = {
-			isa = PBXGroup;
-			children = (
-				069374241EA607E7004E1226 /* GFNetworkingProtocol.h */,
-				069374251EA61657004E1226 /* GFNetworking.h */,
-				069374261EA61657004E1226 /* GFNetworking.m */,
-				068AABEA1EA6F2C1001BE12A /* GFNetworkingManager.h */,
-				068AABEB1EA6F2C1001BE12A /* GFNetworkingManager.m */,
-			);
-			path = "AFNetworking+Gf";
-			sourceTree = "<group>";
-		};
-		0693741D1EA6076D004E1226 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0693741E1EA6076D004E1226 /* GFEffectView.h */,
-				0693741F1EA6076D004E1226 /* GFEffectView.m */,
-				069374201EA6076D004E1226 /* GFToast.h */,
-				069374211EA6076D004E1226 /* GFToast.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		06ADFE7D1EA4A60D00D7708B /* Header */ = {
@@ -685,7 +652,6 @@
 				067EAD4A1EA353EA0017F8EB /* UIView+Nib.m in Sources */,
 				06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */,
 				067EAD441EA352300017F8EB /* NSString+Pinyin.m in Sources */,
-				069374231EA6076D004E1226 /* GFToast.m in Sources */,
 				06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */,
 				067EAD501EA354BC0017F8EB /* UIColor+Hex.m in Sources */,
 				067EAD6D1EA3599C0017F8EB /* NSString+Size.m in Sources */,
@@ -698,9 +664,7 @@
 				067EAD6A1EA359630017F8EB /* NSString+MD5.m in Sources */,
 				067EAD021EA34AFC0017F8EB /* main.m in Sources */,
 				067EAD751EA35A530017F8EB /* NSData+Encrypt.m in Sources */,
-				068AABEC1EA6F2C1001BE12A /* GFNetworkingManager.m in Sources */,
 				069374221EA6076D004E1226 /* GFEffectView.m in Sources */,
-				069374271EA61657004E1226 /* GFNetworking.m in Sources */,
 				067EAD671EA3590A0017F8EB /* NSString+Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

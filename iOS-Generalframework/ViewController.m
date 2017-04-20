@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.btn setBackgroundColor:[UIColor redColor] forState:GFButtonStateHighlight];
-    CALayer
+    
     GFLog(@"%@   %@",[GFDeviceUtil sharedGFDeviceUtil],[GFDeviceUtil sharedGFDeviceUtil].deviceModel);
     
 }
