@@ -33,7 +33,10 @@
 		067EAD791EA35B4D0017F8EB /* NSDate+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD781EA35B4D0017F8EB /* NSDate+Convert.m */; };
 		067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7B1EA35CD30017F8EB /* NSString+Date.m */; };
 		067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */; };
-		06839F671EA84A7A0039E4ED /* GFEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06839F661EA84A7A0039E4ED /* GFEffectView.m */; };
+		06839F6A1EA85C030039E4ED /* UIButton+ImgTitleEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 06839F691EA85C030039E4ED /* UIButton+ImgTitleEdge.m */; };
+		06839F6E1EA862700039E4ED /* GFEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06839F6D1EA862700039E4ED /* GFEffectView.m */; };
+		06839F701EA863770039E4ED /* 003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06839F6F1EA863770039E4ED /* 003@2x.png */; };
+		068CEDAE1EA9A0BD00D5298B /* GFRegularExp.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CEDAD1EA9A0BD00D5298B /* GFRegularExp.m */; };
 		06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE811EA4A60D00D7708B /* GF_Tools.m */; };
 		06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */; };
 		49593409FAC72119D97630B9 /* libPods-iOS-Generalframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */; };
@@ -115,8 +118,13 @@
 		067EAD7D1EA35FBA0017F8EB /* NSDate+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Gf.h"; sourceTree = "<group>"; };
 		067EAD7E1EA3603E0017F8EB /* UIButton+Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Highlight.h"; sourceTree = "<group>"; };
 		067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Highlight.m"; sourceTree = "<group>"; };
-		06839F651EA84A7A0039E4ED /* GFEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFEffectView.h; sourceTree = "<group>"; };
-		06839F661EA84A7A0039E4ED /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEffectView.m; sourceTree = "<group>"; };
+		06839F681EA85C030039E4ED /* UIButton+ImgTitleEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImgTitleEdge.h"; sourceTree = "<group>"; };
+		06839F691EA85C030039E4ED /* UIButton+ImgTitleEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImgTitleEdge.m"; sourceTree = "<group>"; };
+		06839F6C1EA862700039E4ED /* GFEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFEffectView.h; sourceTree = "<group>"; };
+		06839F6D1EA862700039E4ED /* GFEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEffectView.m; sourceTree = "<group>"; };
+		06839F6F1EA863770039E4ED /* 003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003@2x.png"; sourceTree = "<group>"; };
+		068CEDAC1EA9A0BD00D5298B /* GFRegularExp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegularExp.h; sourceTree = "<group>"; };
+		068CEDAD1EA9A0BD00D5298B /* GFRegularExp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFRegularExp.m; sourceTree = "<group>"; };
 		06AA381D1EA49DC50004339C /* UIButton+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gf.h"; sourceTree = "<group>"; };
 		06ADFE7E1EA4A60D00D7708B /* GF_Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Headers.h; sourceTree = "<group>"; };
 		06ADFE7F1EA4A60D00D7708B /* GF_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Macros.h; sourceTree = "<group>"; };
@@ -216,9 +224,9 @@
 				067EAD041EA34AFC0017F8EB /* AppDelegate.m */,
 				067EAD061EA34AFC0017F8EB /* ViewController.h */,
 				067EAD071EA34AFC0017F8EB /* ViewController.m */,
+				06839F6B1EA862700039E4ED /* Vendor(第三方、自定义与业务无关组件等) */,
 				069374101EA606AB004E1226 /* Media Resources(图片、音乐、本地plist等) */,
 				069374111EA606AB004E1226 /* Modules(模块实现，与业务强相关) */,
-				069374121EA606AB004E1226 /* Vender(第三方、自定义与业务无关组件等) */,
 				067EAD331EA351530017F8EB /* Foundation(系统抽离) */,
 				067EAD001EA34AFC0017F8EB /* Supporting Files */,
 			);
@@ -283,6 +291,8 @@
 			isa = PBXGroup;
 			children = (
 				06AA381D1EA49DC50004339C /* UIButton+Gf.h */,
+				06839F681EA85C030039E4ED /* UIButton+ImgTitleEdge.h */,
+				06839F691EA85C030039E4ED /* UIButton+ImgTitleEdge.m */,
 				067EAD7E1EA3603E0017F8EB /* UIButton+Highlight.h */,
 				067EAD7F1EA3603E0017F8EB /* UIButton+Highlight.m */,
 			);
@@ -371,6 +381,17 @@
 			path = NSData;
 			sourceTree = "<group>";
 		};
+		06839F6B1EA862700039E4ED /* Vendor(第三方、自定义与业务无关组件等) */ = {
+			isa = PBXGroup;
+			children = (
+				06839F6C1EA862700039E4ED /* GFEffectView.h */,
+				06839F6D1EA862700039E4ED /* GFEffectView.m */,
+				068CEDAC1EA9A0BD00D5298B /* GFRegularExp.h */,
+				068CEDAD1EA9A0BD00D5298B /* GFRegularExp.m */,
+			);
+			path = "Vendor(第三方、自定义与业务无关组件等)";
+			sourceTree = "<group>";
+		};
 		069374101EA606AB004E1226 /* Media Resources(图片、音乐、本地plist等) */ = {
 			isa = PBXGroup;
 			children = (
@@ -389,18 +410,10 @@
 			path = "Modules(模块实现，与业务强相关)";
 			sourceTree = "<group>";
 		};
-		069374121EA606AB004E1226 /* Vender(第三方、自定义与业务无关组件等) */ = {
-			isa = PBXGroup;
-			children = (
-				06839F651EA84A7A0039E4ED /* GFEffectView.h */,
-				06839F661EA84A7A0039E4ED /* GFEffectView.m */,
-			);
-			path = "Vender(第三方、自定义与业务无关组件等)";
-			sourceTree = "<group>";
-		};
 		069374191EA606D8004E1226 /* IMG */ = {
 			isa = PBXGroup;
 			children = (
+				06839F6F1EA863770039E4ED /* 003@2x.png */,
 			);
 			path = IMG;
 			sourceTree = "<group>";
@@ -569,6 +582,7 @@
 			files = (
 				067EAD101EA34AFC0017F8EB /* LaunchScreen.storyboard in Resources */,
 				067EAD0D1EA34AFC0017F8EB /* Assets.xcassets in Resources */,
+				06839F701EA863770039E4ED /* 003@2x.png in Resources */,
 				067EAD0B1EA34AFC0017F8EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,11 +659,13 @@
 				067EAD641EA358730017F8EB /* NSString+Base64.m in Sources */,
 				067EAD531EA355520017F8EB /* UIImage+Clip.m in Sources */,
 				067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */,
+				06839F6A1EA85C030039E4ED /* UIButton+ImgTitleEdge.m in Sources */,
 				067EAD081EA34AFC0017F8EB /* ViewController.m in Sources */,
 				067EAD4D1EA3548F0017F8EB /* UIView+ViewController.m in Sources */,
 				067EAD721EA35A240017F8EB /* NSData+Base64.m in Sources */,
 				067EAD051EA34AFC0017F8EB /* AppDelegate.m in Sources */,
 				067EAD4A1EA353EA0017F8EB /* UIView+Nib.m in Sources */,
+				068CEDAE1EA9A0BD00D5298B /* GFRegularExp.m in Sources */,
 				06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */,
 				067EAD441EA352300017F8EB /* NSString+Pinyin.m in Sources */,
 				06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */,
@@ -659,12 +675,12 @@
 				067EAD561EA356310017F8EB /* UIImage+Color.m in Sources */,
 				067EAD471EA352440017F8EB /* UIView+Frame.m in Sources */,
 				067EAD591EA356BE0017F8EB /* UIImage+Snap.m in Sources */,
+				06839F6E1EA862700039E4ED /* GFEffectView.m in Sources */,
 				067EAD5C1EA357250017F8EB /* UIImage+Launchimage.m in Sources */,
 				067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */,
 				067EAD6A1EA359630017F8EB /* NSString+MD5.m in Sources */,
 				067EAD021EA34AFC0017F8EB /* main.m in Sources */,
 				067EAD751EA35A530017F8EB /* NSData+Encrypt.m in Sources */,
-				06839F671EA84A7A0039E4ED /* GFEffectView.m in Sources */,
 				067EAD671EA3590A0017F8EB /* NSString+Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

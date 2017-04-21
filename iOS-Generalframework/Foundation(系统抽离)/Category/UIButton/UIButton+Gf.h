@@ -10,5 +10,6 @@
 #define UIButton_Gf_h
 
 #import "UIButton+Highlight.h"
+#import "UIButton+ImgTitleEdge.h"
 
 #endif /* UIButton_Gf_h */
