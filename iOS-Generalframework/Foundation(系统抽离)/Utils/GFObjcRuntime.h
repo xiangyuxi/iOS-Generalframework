@@ -10,6 +10,7 @@
 #define GFObjcRuntime_h
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
 
 /**
  根据对象或类，获取属性列表。key表示属性类型，value表示属性名称。

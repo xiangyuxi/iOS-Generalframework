@@ -42,6 +42,9 @@
 		068CEDC61EA9F3AD00D5298B /* GFRegularExp.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CEDC41EA9F3AD00D5298B /* GFRegularExp.m */; };
 		068CEDC91EA9F47D00D5298B /* GFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CEDC81EA9F47D00D5298B /* GFModel.m */; };
 		068CEDCF1EA9F72100D5298B /* NSString+Contains.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CEDCE1EA9F72100D5298B /* NSString+Contains.m */; };
+		0699CFD81EADE3EB0032B933 /* NSNumber+Moeny.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699CFD71EADE3EB0032B933 /* NSNumber+Moeny.m */; };
+		0699CFE21EADF3E60032B933 /* UILabel+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699CFE11EADF3E60032B933 /* UILabel+Font.m */; };
+		0699CFE71EADF6410032B933 /* UIViewController+LifeCycleCalled.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699CFE61EADF6410032B933 /* UIViewController+LifeCycleCalled.m */; };
 		06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE811EA4A60D00D7708B /* GF_Tools.m */; };
 		06ADFE861EA4A70300D7708B /* GFDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ADFE851EA4A70300D7708B /* GFDeviceUtil.m */; };
 		49593409FAC72119D97630B9 /* libPods-iOS-Generalframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D9DCEFA2B3E43AE3FE48 /* libPods-iOS-Generalframework.a */; };
@@ -140,6 +143,15 @@
 		068CEDC81EA9F47D00D5298B /* GFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFModel.m; sourceTree = "<group>"; };
 		068CEDCD1EA9F72100D5298B /* NSString+Contains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Contains.h"; sourceTree = "<group>"; };
 		068CEDCE1EA9F72100D5298B /* NSString+Contains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Contains.m"; sourceTree = "<group>"; };
+		0699CFD61EADE3EB0032B933 /* NSNumber+Moeny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Moeny.h"; sourceTree = "<group>"; };
+		0699CFD71EADE3EB0032B933 /* NSNumber+Moeny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Moeny.m"; sourceTree = "<group>"; };
+		0699CFD91EADE5060032B933 /* NSNumber+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Gf.h"; sourceTree = "<group>"; };
+		0699CFE01EADF3E60032B933 /* UILabel+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Font.h"; sourceTree = "<group>"; };
+		0699CFE11EADF3E60032B933 /* UILabel+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Font.m"; sourceTree = "<group>"; };
+		0699CFE31EADF6050032B933 /* UILabel+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gf.h"; sourceTree = "<group>"; };
+		0699CFE51EADF6410032B933 /* UIViewController+LifeCycleCalled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LifeCycleCalled.h"; sourceTree = "<group>"; };
+		0699CFE61EADF6410032B933 /* UIViewController+LifeCycleCalled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LifeCycleCalled.m"; sourceTree = "<group>"; };
+		0699CFE81EADFDD70032B933 /* UIViewController+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Gf.h"; sourceTree = "<group>"; };
 		06AA381D1EA49DC50004339C /* UIButton+Gf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gf.h"; sourceTree = "<group>"; };
 		06ADFE7E1EA4A60D00D7708B /* GF_Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Headers.h; sourceTree = "<group>"; };
 		06ADFE7F1EA4A60D00D7708B /* GF_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_Macros.h; sourceTree = "<group>"; };
@@ -291,6 +303,9 @@
 		067EAD341EA351530017F8EB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0699CFE41EADF61D0032B933 /* UIViewController */,
+				0699CFDF1EADF3D70032B933 /* UILabel */,
+				0699CFD51EADE3DA0032B933 /* NSNumber */,
 				067EAD6F1EA35A160017F8EB /* NSData */,
 				067EAD3F1EA352300017F8EB /* NSDate */,
 				067EAD401EA352300017F8EB /* NSString */,
@@ -475,6 +490,36 @@
 			children = (
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		0699CFD51EADE3DA0032B933 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				0699CFD91EADE5060032B933 /* NSNumber+Gf.h */,
+				0699CFD61EADE3EB0032B933 /* NSNumber+Moeny.h */,
+				0699CFD71EADE3EB0032B933 /* NSNumber+Moeny.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		0699CFDF1EADF3D70032B933 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				0699CFE31EADF6050032B933 /* UILabel+Gf.h */,
+				0699CFE01EADF3E60032B933 /* UILabel+Font.h */,
+				0699CFE11EADF3E60032B933 /* UILabel+Font.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		0699CFE41EADF61D0032B933 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0699CFE81EADFDD70032B933 /* UIViewController+Gf.h */,
+				0699CFE51EADF6410032B933 /* UIViewController+LifeCycleCalled.h */,
+				0699CFE61EADF6410032B933 /* UIViewController+LifeCycleCalled.m */,
+			);
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 		06ADFE7D1EA4A60D00D7708B /* Header */ = {
@@ -706,6 +751,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				067EAD641EA358730017F8EB /* NSString+Base64.m in Sources */,
+				0699CFE21EADF3E60032B933 /* UILabel+Font.m in Sources */,
 				067EAD531EA355520017F8EB /* UIImage+Clip.m in Sources */,
 				067EAD801EA3603E0017F8EB /* UIButton+Highlight.m in Sources */,
 				06839F6A1EA85C030039E4ED /* UIButton+ImgTitleEdge.m in Sources */,
@@ -713,6 +759,7 @@
 				067EAD4D1EA3548F0017F8EB /* UIView+ViewController.m in Sources */,
 				068CEDB41EA9ADA700D5298B /* UIView+Layer.m in Sources */,
 				067EAD721EA35A240017F8EB /* NSData+Base64.m in Sources */,
+				0699CFD81EADE3EB0032B933 /* NSNumber+Moeny.m in Sources */,
 				067EAD051EA34AFC0017F8EB /* AppDelegate.m in Sources */,
 				067EAD4A1EA353EA0017F8EB /* UIView+Nib.m in Sources */,
 				06ADFE821EA4A60D00D7708B /* GF_Tools.m in Sources */,
@@ -729,6 +776,7 @@
 				068CEDCF1EA9F72100D5298B /* NSString+Contains.m in Sources */,
 				067EAD471EA352440017F8EB /* UIView+Frame.m in Sources */,
 				067EAD591EA356BE0017F8EB /* UIImage+Snap.m in Sources */,
+				0699CFE71EADF6410032B933 /* UIViewController+LifeCycleCalled.m in Sources */,
 				068CEDC61EA9F3AD00D5298B /* GFRegularExp.m in Sources */,
 				067EAD5C1EA357250017F8EB /* UIImage+Launchimage.m in Sources */,
 				067EAD7C1EA35CD30017F8EB /* NSString+Date.m in Sources */,

@@ -6,7 +6,6 @@
 //  Copyright © 2017年 xyx. All rights reserved.
 //
 
-#import <objc/runtime.h>
 #import "GFObjcRuntime.h"
 
 NSDictionary *gf_get_propertylist_from_obj(NSObject *object)

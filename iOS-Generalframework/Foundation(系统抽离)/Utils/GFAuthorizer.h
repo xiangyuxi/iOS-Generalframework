@@ -20,7 +20,7 @@ extern BOOL gf_check_photolibrary_authorization();
 extern BOOL gf_check_camera_authorization();
 
 /**
- 以后打开系统设置页面
+ 8.0以后打开系统设置页面
  */
 extern void gf_open_sys_setting() NS_AVAILABLE_IOS(8_0);
 

@@ -10,35 +10,7 @@
 #import "UIButton+Highlight.h"
 #import "GFDeviceUtil.h"
 #import "UIButton+Gf.h"
-#import "GFModel.h"
-
-@interface Model2 : GFModel
-
-@property (nonatomic, copy) NSString *msg;
-
-@end
-@implementation Model2
-@end
-
-@interface Model1 : GFModel
-
-@property (nonatomic, assign) int code;
-@property (nonatomic, assign) float success;
-
-@property (nonatomic, assign) NSInteger code1;
-@property (nonatomic, assign) CGFloat success1;
-
-@property (nonatomic, assign) CGRect rect;
-@property (nonatomic, assign) CGPoint point;
-@property (nonatomic, copy) NSArray<Model2 *> *array;
-@property (nonatomic, copy) NSString *string;
-@property (nonatomic, copy) NSDictionary *dictionary;
-@property (nonatomic, strong) Model2 *model2;
-@property (nonatomic, strong) id haha;
-
-@end
-@implementation Model1
-@end
+#import "UIViewController+Gf.h"
 
 @interface ViewController () {
     dispatch_source_t timer;
@@ -46,16 +18,45 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *btn;
 
+@property (nonatomic, strong) UIViewController *controller;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [Model1 modelFromDictionary:@{}];
     [super viewDidLoad];
     [self.btn setBackgroundColor:[UIColor redColor] forState:GFButtonStateHighlight];
     self.btn.itStyle = GFButtonITStyleTop;
     GFLog(@"%@   %@",[GFDeviceUtil sharedGFDeviceUtil],[GFDeviceUtil sharedGFDeviceUtil].deviceModel);
+    
+    self.controller = [[UIViewController alloc] init];
+    
+    [self.controller setViewDidLoadBlock:^(UIViewController *controller) {
+        GFLog(@"ViewDidLoadBlock");
+    }];
+    
+    self.controller.view.frame = CGRectMake(0, 0, 100, 100);
+    
+    self.controller.view.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview:self.controller.view];
+    [self.controller willMoveToParentViewController:self];
+    [self addChildViewController:self.controller];
+    [self.controller didMoveToParentViewController:self];
+    
+    [self.controller setViewWillAppearBlock:^(UIViewController *controller, BOOL aAnimated) {
+        GFLog(@"ViewWillAppearBlock");
+    }];
+    [self.controller setViewDidAppearBlock:^(UIViewController *controller, BOOL aAnimated) {
+        GFLog(@"ViewDidAppearBlock");
+    }];
+    [self.controller setViewWillDisappearBlock:^(UIViewController *controller, BOOL aAnimated) {
+        GFLog(@"ViewWillDisappearBlock");
+    }];
+    [self.controller setViewDidDisappearBlock:^(UIViewController *controller, BOOL aAnimated) {
+        GFLog(@"ViewDidDisappearBlock");
+    }];
     
 }
 - (IBAction)btnAction:(id)sender

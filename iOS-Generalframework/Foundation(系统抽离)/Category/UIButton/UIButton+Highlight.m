@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+Highlight.h"
-#import <objc/runtime.h>
+#import "GF_Utils.h"
 
 static const char GfHighlightBackgroundColorAttributeKey = '\0';
 
@@ -24,9 +24,10 @@ static UIControlState gfstate_2_uistate(GFButtonState state)
 
 + (void)load
 {
-    Method originalM = class_getInstanceMethod([self class], @selector(setSelected:));
-    Method exchangeM = class_getInstanceMethod([self class], @selector(gf_setSelected:));
-    method_exchangeImplementations(originalM, exchangeM);
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        gf_Swizzle([UIButton class], @selector(setSelected:), @selector(gf_setSelected:));
+    });
 }
 
 - (void)gf_setSelected:(BOOL)selected
