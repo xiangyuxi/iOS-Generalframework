@@ -15,5 +15,6 @@
 #import "NSString+MD5.h"
 #import "NSString+Size.h"
 #import "NSString+Date.h"
+#import "NSString+Contains.h"
 
 #endif /* NSString_Gf_h */

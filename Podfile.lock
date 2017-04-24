@@ -18,6 +18,7 @@ PODS:
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
   - IQKeyboardManager (3.3.7)
+  - MJExtension (3.0.13)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -30,14 +31,16 @@ DEPENDENCIES:
   - AFNetworking
   - FMDB
   - IQKeyboardManager
+  - MJExtension
   - ReactiveCocoa
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: 4d9986a333eac0ecd9071fb99f4fdcfa64586811
+PODFILE CHECKSUM: 131a6d5ba1d1bd57be703d6f5d373e11009257c5
 
 COCOAPODS: 1.2.0

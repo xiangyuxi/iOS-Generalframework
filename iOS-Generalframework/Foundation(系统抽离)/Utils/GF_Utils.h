@@ -6,9 +6,11 @@
 //  Copyright © 2017年 xyx. All rights reserved.
 //
 
-#ifndef Utils_Gf_h
-#define Utils_Gf_h
+#ifndef GF_Utils_h
+#define GF_Utils_h
 
 #import "GFDeviceUtil.h"
+#import "GFObjcRuntime.h"
+#import "GFAuthorizer.h"
 
-#endif /* Utils_Gf_h */
+#endif /* GF_Utils_h */

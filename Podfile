@@ -5,4 +5,5 @@ target "iOS-Generalframework" do
  	pod 'ReactiveCocoa'
 	pod 'FMDB'
 	pod 'IQKeyboardManager'
+    pod 'MJExtension'
 end

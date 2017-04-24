@@ -12,5 +12,6 @@
 #import "UIView+Frame.h"
 #import "UIView+Nib.h"
 #import "UIView+ViewController.h"
+#import "UIView+Layer.h"
 
 #endif /* UIView_Gf_h */
