@@ -18,7 +18,6 @@ typedef void(^GFViewWillAppearBlock)(UIViewController *controller, BOOL aAnimate
 typedef void(^GFViewDidAppearBlock)(UIViewController *controller, BOOL aAnimated);
 typedef void(^GFViewWillDisappearBlock)(UIViewController *controller, BOOL aAnimated);
 typedef void(^GFViewDidDisappearBlock)(UIViewController *controller, BOOL aAnimated);
-typedef void(^GFViewControllerWillDeallocBlock) (UIViewController *controller);
 
 @protocol UIViewControllerLifeCycleDelegate <NSObject>
 
@@ -30,7 +29,6 @@ typedef void(^GFViewControllerWillDeallocBlock) (UIViewController *controller);
 - (void)setViewDidAppearBlock:(GFViewDidAppearBlock)viewDidAppearBlock;
 - (void)setViewWillDisappearBlock:(GFViewWillDisappearBlock)viewWillDisappearBlock;
 - (void)setViewDidDisappearBlock:(GFViewDidDisappearBlock)viewDidDisappearBlock;
-- (void)setViewControllerWillDeallocBlock:(GFViewControllerWillDeallocBlock)viewControllerWillDeallocBlock;
 
 @end
 

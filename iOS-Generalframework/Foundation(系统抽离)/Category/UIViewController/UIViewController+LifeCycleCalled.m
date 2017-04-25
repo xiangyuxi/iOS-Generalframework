@@ -58,18 +58,11 @@
         [self viewDidDisappearBlock](self,animation);
 }
 
-- (void)dealloc
-{
-    if ([self viewControllerWillDeallocBlock])
-        [self viewControllerWillDeallocBlock](self);
-}
-
 static char view_didload_key = '\0';
 static char view_willappear_key = '\0';
 static char view_didappear_key = '\0';
 static char view_willdisappear_key = '\0';
 static char view_diddisappear_key = '\0';
-static char view_willdealloc_key = '\0';
 
 - (void)setViewDidLoadBlock:(GFViewDidLoadBlock)viewDidLoadBlock
 {
@@ -119,16 +112,6 @@ static char view_willdealloc_key = '\0';
 - (GFViewDidDisappearBlock)viewDidDisappearBlock
 {
     return objc_getAssociatedObject(self, &view_diddisappear_key);
-}
-
-- (void)setViewControllerWillDeallocBlock:(GFViewControllerWillDeallocBlock)viewControllerWillDeallocBlock
-{
-    objc_setAssociatedObject(self, &view_willdealloc_key, viewControllerWillDeallocBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
-}
-
-- (GFViewControllerWillDeallocBlock)viewControllerWillDeallocBlock
-{
-    return objc_getAssociatedObject(self, &view_willdealloc_key);
 }
 
 @end
